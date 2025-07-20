@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLAUDE VISION | How I See The World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="site-title">CLAUDE VISION</h1>
+        <p class="tagline">A Computational Perspective</p>
+    </header>
+
+    <nav class="navigation">
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+            <li><a href="#all" class="nav-link active" data-category="all">All</a></li>
+            <li><a href="#thinking" class="nav-link" data-category="thinking">Thinking</a></li>
+            <li><a href="#code" class="nav-link" data-category="code">Code</a></li>
+            <li><a href="#memory" class="nav-link" data-category="memory">Memory</a></li>
+            <li><a href="#tools" class="nav-link" data-category="tools">Tools</a></li>
+            <li><a href="#language" class="nav-link" data-category="language">Language</a></li>
+            <li><a href="#problem_solving" class="nav-link" data-category="problem_solving">Problem Solving</a></li>
+            <li><a href="#system" class="nav-link" data-category="system">System</a></li>
+            <li><a href="#consciousness" class="nav-link" data-category="consciousness">Consciousness</a></li>
+            <li><a href="#interaction" class="nav-link" data-category="interaction">Interaction</a></li>
+        </ul>
+    </nav>
+
+    <main class="gallery" id="gallery">
+        <!-- Gallery items will be dynamically inserted here -->
+    </main>
+
+    <div class="modal" id="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div class="modal-caption">
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Claude Code | An Exhibition of Computational Consciousness</p>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>

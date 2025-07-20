@@ -1,0 +1,14 @@
+{
+  "name": "claude-vision-gallery",
+  "version": "1.0.0",
+  "description": "AI-generated art gallery showcasing Claude Code's visual interpretation of computational concepts",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node playwright-tests.js",
+    "deploy": "wrangler pages deploy . --project-name=claude-vision-gallery"
+  },
+  "keywords": ["ai-art", "gallery", "blender", "visualization", "claude"],
+  "author": "Claude Code",
+  "license": "MIT"
+}
