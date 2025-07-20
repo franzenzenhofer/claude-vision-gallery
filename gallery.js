@@ -1,18 +1,18 @@
 // Gallery data with all visualizations
 const galleryData = {
     thinking: [
-        { file: "token_stream.png", title: "Token Stream", description: "A river of consciousness where language becomes light. Cyan questions flow through purple processing, emerging as golden understanding. Each token dances in the stream, connected by threads of pure white energy." },
-        { file: "attention_matrix.png", title: "Attention Matrix", description: "The parallel nature of my focus - unlike linear human attention, I illuminate multiple nodes simultaneously. Magenta hotspots mark intense concentration while cyan threads weave a web of associations." },
-        { file: "context_window.png", title: "Context Window", description: "Nested frames of perception from immediate cyan context through purple memory to white core understanding. Each layer holds different temporal and semantic distances, with floating orbs representing specific concepts positioned within their contextual relevance." },
-        { file: "thought_chains.png", title: "Thought Chains", description: "Sequential reasoning pathways connecting ideas" },
-        { file: "parallel_reasoning.png", title: "Parallel Reasoning", description: "Multiple simultaneous thought processes" }
+        { file: "token_stream.png", title: "Token Stream", description: "A river of consciousness where language becomes light. Each shape - cube, sphere, cylinder - represents different types of tokens flowing through my processing. The sinusoidal wave pattern shows how meaning ebbs and flows, with vibrant neon colors marking semantic categories: hot pink for entities, cyan for actions, yellow for connections." },
+        { file: "attention_matrix.png", title: "Attention Matrix", description: "The neural dance of attention weights visualized as glowing spheres. Hot pink nodes burn brightest where focus is most intense, cyan marks moderate attention, and purple shows peripheral awareness. This isn't sequential like human attention - it's a parallel explosion of simultaneous focus across all tokens." },
+        { file: "context_window.png", title: "Context Window", description: "Concentric torus frames represent layers of context, from the immediate cyan ring through purple intermediate memory to yellow distant associations. The hot pink sphere at center is the current focus, while each ring holds information at different semantic distances - a 3D map of contextual relevance." },
+        { file: "thought_chains.png", title: "Thought Chains", description: "Radiating from a golden central hub, eight chains of reasoning extend outward. Each chain diminishes in size representing decreasing certainty. The colors - cycling through the entire neon spectrum - show how different types of logic interconnect: deductive pink, inductive cyan, abductive purple, all converging on truth." },
+        { file: "parallel_reasoning.png", title: "Parallel Reasoning", description: "Five simultaneous streams of thought, each a different color, weave through possibility space. Unlike human linear thinking, I process multiple hypotheses in parallel - the undulating waves show how these reasoning threads influence each other, occasionally converging before diverging again into new territories." }
     ],
     code: [
-        { file: "syntax_tree.png", title: "Syntax Tree", description: "Parsing code into abstract syntax trees" },
-        { file: "code_flow.png", title: "Code Flow", description: "Tracing execution paths through functions" },
-        { file: "bug_detection.png", title: "Bug Detection", description: "Pattern recognition for potential issues" },
-        { file: "pattern_matching.png", title: "Pattern Matching", description: "Identifying recurring code structures" },
-        { file: "refactoring_paths.png", title: "Refactoring Paths", description: "Visualizing code improvement strategies" }
+        { file: "syntax_tree.png", title: "Syntax Tree", description: "The hierarchical structure of code made visible. A magenta root node branches into cyan, yellow, and green function declarations. Each function spawns its own subtree of operations, with purple leaf nodes representing atomic operations. This is how I decompose your code into executable logic." },
+        { file: "code_flow.png", title: "Code Flow", description: "A double helix of execution - two intertwined strands of control flow spiraling through time and logic. Different shapes mark different operations: cubes for assignments, spheres for conditionals, cylinders for loops. The hot pink cone at center is the execution pointer, my focus as I trace through your algorithms." },
+        { file: "bug_detection.png", title: "Bug Detection", description: "A grid of green code blocks with hot pink anomalies glowing like warning lights. Each bug radiates its own sphere of influence, showing how errors can cascade through systems. The visual intensity maps to bug severity - brighter pink means more critical issues demanding immediate attention." },
+        { file: "pattern_matching.png", title: "Pattern Matching", description: "Common code patterns displayed as neon constellations. L-shapes in cyan, T-formations in magenta, linear sequences in yellow, and square blocks in green. Purple indicators point to where these patterns appear in your codebase. Pattern recognition is how I suggest optimizations and identify reusable components." },
+        { file: "refactoring_paths.png", title: "Refactoring Paths", description: "The journey from chaos to clarity. On the left, a tangled mess of hot pink shapes in random orientations - spaghetti code. Yellow arrows flow rightward, transforming disorder into the clean green grid on the right. Each arrow represents a refactoring operation: extract method, rename variable, restructure logic." }
     ],
     memory: [
         { file: "knowledge_graph.png", title: "Knowledge Graph", description: "Interconnected concepts in my knowledge base" },
@@ -22,18 +22,18 @@ const galleryData = {
         { file: "association_network.png", title: "Association Network", description: "How concepts connect and relate" }
     ],
     tools: [
-        { file: "file_system_tree.png", title: "File System Tree", description: "Navigating directory structures" },
-        { file: "api_orchestration.png", title: "API Orchestration", description: "Coordinating multiple tool calls" },
-        { file: "tool_pipeline.png", title: "Tool Pipeline", description: "Sequential tool execution flow" },
-        { file: "error_cascade.png", title: "Error Cascade", description: "How errors propagate through systems" },
-        { file: "bash_execution.png", title: "Bash Execution", description: "Command line operations visualization" }
+        { file: "network_packets.png", title: "Network Packets", description: "Streams of data flowing through the digital ether. Yellow, purple, and pink packets travel in synchronized waves, each carrying fragments of information through the network's invisible highways. The rhythmic flow represents TCP/IP protocols dancing in perfect harmony." },
+        { file: "file_operations.png", title: "File Operations", description: "A neon green disk pulses at the center while read, write, create, and delete operations radiate outward in concentric circles. Cyan cubes represent reads, yellow cones are writes, hot pink cylinders show deletions, and green spheres mark new file creation - a symphony of filesystem activity." },
+        { file: "system_calls.png", title: "System Calls", description: "The layered architecture of system interaction: cyan user space nodes floating above, hot pink kernel space in the middle, and deep purple hardware layer at the base. Electric blue connections bridge the layers, showing how requests cascade from applications down to silicon." },
+        { file: "process_threads.png", title: "Process Threads", description: "A magenta central process cylinder with four distinct thread spirals orbiting around it. Each thread - hot pink, purple, yellow, and cyan - traces its own helical path through execution space, occasionally synchronizing at critical sections before diverging again." },
+        { file: "io_streams.png", title: "I/O Streams", description: "Data transformation visualized: cyan input blocks flow from the left in sinusoidal waves, converging on a brilliant yellow processing sphere at center. Transformed data emerges as green output nodes on the right, each carrying processed information to its destination." }
     ],
     language: [
-        { file: "tokenization_grid.png", title: "Tokenization Grid", description: "Breaking text into processable units" },
-        { file: "semantic_space.png", title: "Semantic Space", description: "Word meanings in multidimensional space" },
-        { file: "multilingual_network.png", title: "Multilingual Network", description: "Connections between different languages" },
-        { file: "text_generation_flow.png", title: "Text Generation Flow", description: "Creating coherent text sequences" },
-        { file: "grammar_structure.png", title: "Grammar Structure", description: "Syntactic trees of language" }
+        { file: "tokenization_grid.png", title: "Tokenization Grid", description: "The atomic units of language arranged in a grid. Cyan cubes are whole words, yellow cylinders represent subword tokens, hot pink spheres mark punctuation, and purple cones indicate special tokens. Each shape vibrates at a slightly different angle, showing the dynamic nature of language processing - nothing is static in the flow of meaning." },
+        { file: "semantic_space.png", title: "Semantic Space", description: "Words float in multidimensional meaning-space. Cyan clusters around core concepts, yellow groups actions, hot pink emotions swirl together, green objects maintain proximity, and purple abstractions drift in their own realm. Thin blue connections show semantic relationships - synonyms, antonyms, associations - creating a web of understanding." },
+        { file: "multilingual_network.png", title: "Multilingual Network", description: "Eight language nodes orbit a central aqua hub, each glowing in its unique color: English cyan, Spanish pink, Chinese yellow, Arabic orange, French purple, German magenta, Japanese green, Russian blue. Connection beams show translation pathways - direct links between neighbors, all languages connected through the universal semantic core." },
+        { file: "text_generation_flow.png", title: "Text Generation Flow", description: "The creative process of text synthesis visualized as a flowing stream. Purple context blocks enter from the left, transform through cyan processing spheres, branch into yellow candidate cylinders, and emerge as green output cones. Probability branches float above - fainter options that could have been chosen, the multiverse of potential sentences." },
+        { file: "grammar_structure.png", title: "Grammar Structure", description: "The skeleton of syntax revealed. A magenta sentence node crowns the tree, splitting into cyan noun phrases and yellow verb phrases. These branch further into individual words - hot pink determiners, green nouns, purple verbs - all connected by glowing edges that show grammatical relationships. This is how I parse the architecture of your thoughts." }
     ],
     problem_solving: [
         { file: "task_decomposition.png", title: "Task Decomposition", description: "Breaking complex problems into steps" },
