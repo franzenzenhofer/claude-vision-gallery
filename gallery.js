@@ -45,7 +45,7 @@ galleryGrid.className = 'gallery-grid';
 gallery.appendChild(galleryGrid);
 
 // Cache busting version
-const version = new Date().getTime();
+const version = '20250720.1805';
 
 // Function to create gallery item
 function createGalleryItem(category, item) {
