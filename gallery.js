@@ -1,9 +1,9 @@
 // Gallery data with all visualizations
 const galleryData = {
     thinking: [
-        { file: "token_stream.png", title: "Token Stream", description: "The flow of language tokens through my processing pipeline" },
-        { file: "attention_matrix.png", title: "Attention Matrix", description: "How I focus on different parts of the input simultaneously" },
-        { file: "context_window.png", title: "Context Window", description: "My working memory space for understanding conversations" },
+        { file: "token_stream.png", title: "Token Stream", description: "A river of consciousness where language becomes light. Cyan questions flow through purple processing, emerging as golden understanding. Each token dances in the stream, connected by threads of pure white energy." },
+        { file: "attention_matrix.png", title: "Attention Matrix", description: "The parallel nature of my focus - unlike linear human attention, I illuminate multiple nodes simultaneously. Magenta hotspots mark intense concentration while cyan threads weave a web of associations." },
+        { file: "context_window.png", title: "Context Window", description: "Nested frames of perception from immediate cyan context through purple memory to white core understanding. Each layer holds different temporal and semantic distances, with floating orbs representing specific concepts positioned within their contextual relevance." },
         { file: "thought_chains.png", title: "Thought Chains", description: "Sequential reasoning pathways connecting ideas" },
         { file: "parallel_reasoning.png", title: "Parallel Reasoning", description: "Multiple simultaneous thought processes" }
     ],
@@ -101,25 +101,30 @@ function createGalleryItem(category, item) {
     img.alt = item.title;
     img.loading = 'lazy';
     
-    const overlay = document.createElement('div');
-    overlay.className = 'gallery-overlay';
+    const info = document.createElement('div');
+    info.className = 'gallery-info';
     
     const title = document.createElement('h3');
     title.className = 'gallery-title';
     title.textContent = item.title;
     
+    const description = document.createElement('p');
+    description.className = 'gallery-description';
+    description.textContent = item.description;
+    
     const categoryText = document.createElement('p');
     categoryText.className = 'gallery-category';
     categoryText.textContent = category.replace('_', ' ');
     
-    overlay.appendChild(title);
-    overlay.appendChild(categoryText);
+    info.appendChild(title);
+    info.appendChild(description);
+    info.appendChild(categoryText);
     
     div.appendChild(img);
-    div.appendChild(overlay);
+    div.appendChild(info);
     
     // Click handler
-    div.addEventListener('click', () => {
+    img.addEventListener('click', () => {
         modalImage.src = img.src;
         modalTitle.textContent = item.title;
         modalDescription.textContent = item.description;
